@@ -12,6 +12,7 @@ export class AIService {
     this.model = google(config.model, {
       apiKey: config.googleApiKey,
     });
+    
   }
 
   /**
